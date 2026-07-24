@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampusMart — Responsive (Buoi 5)</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="cm-header">
+        <h1 data-testid="cm-brand">CampusMart</h1>
+        
+        <nav data-testid="cm-nav" aria-label="Menu chinh">
+            <ul class="cm-nav">
+                <li><a href="#categories">Trang chu</a></li>
+                <li><a href="#products">San pham</a></li>
+                <li><a href="#subscribe">Dang ky</a></li>
+                <li><a href="#about">Gioi thieu</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="categories">
+            <ul data-testid="cm-category-list">
+                <li>Ban phim</li>
+                <li>Chuot</li>
+                <li>Man hinh</li>
+            </ul>
+        </section>
+
+        <section id="products">
+            <div class="cm-grid" data-testid="cm-product-table">
+                <article class="cm-card" data-sku="KB-01">
+                    <figure>
+                        <img src="https://m.media-amazon.com/images/I/61OS8Ptfl2L._AC_SL1500_.jpg" alt="Ban phim co Keychron K2" width="120" height="80">
+                        <figcaption>KB-01</figcaption>
+                    </figure>
+                    <div class="cm-card-title">Keychron K2</div>
+                    <div class="cm-card-category">Ban phim</div>
+                    <div class="cm-card-price">1890000 d</div>
+                </article>
+
+                <article class="cm-card" data-sku="KB-02">
+                    <figure>
+                        <img src="https://cdn2.cellphones.com.vn/x/media/catalog/product/b/a/ban-phim-co-akko-3087-rf-one-piece-luffy-cream_2.jpg" alt="Ban phim co Akko 3087" width="120" height="80">
+                        <figcaption>KB-02</figcaption>
+                    </figure>
+                    <div class="cm-card-title">Akko 3087</div>
+                    <div class="cm-card-category">Ban phim</div>
+                    <div class="cm-card-price">1290000 d</div>
+                </article>
+
+                <article class="cm-card" data-sku="MS-01">
+                    <figure>
+                        <img src="https://cdnv2.tgdd.vn/mwg-static/tgdd/Products/Images/86/299931/chuot-khong-day-logitech-silent-signature-m650-size-m-den-3-638620837125359414-750x500.jpg" alt="Chuot khong day Logitech M331" width="120" height="80">
+                        <figcaption>MS-01</figcaption>
+                    </figure>
+                    <div class="cm-card-title">Logitech M331</div>
+                    <div class="cm-card-category">Chuot</div>
+                    <div class="cm-card-price">290000 d</div>
+                </article>
+
+                <article class="cm-card" data-sku="MS-02">
+                    <figure>
+                        <img src="https://product.hstatic.net/200000722513/product/gvn_razer_viper_8174dbdfb4c940b4ada5eae30b1c477d_d4592d5d704640e28b840d0a8ae91426_master.png" alt="Chuot gaming Razer Viper" width="120" height="80">
+                        <figcaption>MS-02</figcaption>
+                    </figure>
+                    <div class="cm-card-title">Razer Viper</div>
+                    <div class="cm-card-category">Chuot</div>
+                    <div class="cm-card-price">990000 d</div>
+                </article>
+
+                <article class="cm-card" data-sku="KB-03">
+                    <figure>
+                        <img src="https://product.hstatic.net/200000722513/product/20_1b846ba78eec4cd09e28f1f3b1e17e4a_master.jpg" alt="Ban phim co Leopold FC660M" width="120" height="80">
+                        <figcaption>KB-03</figcaption>
+                    </figure>
+                    <div class="cm-card-title">Leopold FC660M</div>
+                    <div class="cm-card-category">Ban phim</div>
+                    <div class="cm-card-price">2750000 d</div>
+                </article>
+
+                <article class="cm-card" data-sku="MS-03">
+                    <figure>
+                        <img src="https://cdn2.cellphones.com.vn/x/media/catalog/product/1/_/1_74_22.jpg" alt="Chuot van phong Xiaomi Silent" width="120" height="80">
+                        <figcaption>MS-03</figcaption>
+                    </figure>
+                    <div class="cm-card-title">Xiaomi Silent</div>
+                    <div class="cm-card-category">Chuot</div>
+                    <div class="cm-card-price">250000 d</div>
+                </article>
+
+                <article class="cm-card" data-sku="MN-01">
+                    <figure>
+                        <img src="https://cdn2.cellphones.com.vn/x/media/catalog/product/s/s/ssss_1_2.png" alt="Man hinh van phong Dell 24 inch" width="120" height="80">
+                        <figcaption>MN-01</figcaption>
+                    </figure>
+                    <div class="cm-card-title">Dell 24 inch</div>
+                    <div class="cm-card-category">Man hinh</div>
+                    <div class="cm-card-price">3200000 d</div>
+                </article>
+
+                <article class="cm-card" data-sku="MN-02">
+                    <figure>
+                        <img src="https://m.media-amazon.com/images/I/81V1WzapMDL._AC_SL1500_.jpg" alt="Man hinh do hoa LG UltraFine" width="120" height="80">
+                        <figcaption>MN-02</figcaption>
+                    </figure>
+                    <div class="cm-card-title">LG UltraFine</div>
+                    <div class="cm-card-category">Man hinh</div>
+                    <div class="cm-card-price">8500000 d</div>
+                </article>
+            </div>
+
+            <div data-testid="cm-inventory-total">
+                <p>Tong gia tri kho = 41380000</p>
+                <p>So san pham = 8</p>
+            </div>
+        </section>
+
+        <section id="subscribe">
+            <form data-testid="cm-subscribe-form">
+                <fieldset>
+                    <legend>Dang ky nhan tin</legend>
+                    
+                    <div>
+                        <label for="sub-name">Ho ten</label>
+                        <input type="text" id="sub-name" name="name" required minlength="2">
+                    </div>
+
+                    <div>
+                        <label for="sub-email">Email</label>
+                        <input type="email" id="sub-email" name="email" required>
+                    </div>
+
+                    <div>
+                        <label for="sub-category">Danh muc quan tam</label>
+                        <select id="sub-category" name="category_id" required>
+                            <option value="">-- Chon danh muc --</option>
+                            <option value="1">Ban phim</option>
+                            <option value="2">Chuot</option>
+                            <option value="3">Man hinh</option>
+                        </select>
+                    </div>
+
+                    <button type="submit">Dang ky</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer id="about">
+        <h2>Gioi thieu lien he</h2>
+        <form>
+            <div>
+                <label for="contact-name">Ho ten</label>
+                <input type="text" id="contact-name" name="contact_name" required>
+            </div>
+            <div>
+                <label for="contact-msg">Noi dung</label>
+                <textarea id="contact-msg" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit">Gui</button>
+        </form>
+        
+        <p>CSE391 / Buoi 5</p>
+    </footer>
+
+    <!-- CM_EXPECT product_count=8 card_count=8 inventory_value=41380000 responsive=true -->
+</body>
+</html>
